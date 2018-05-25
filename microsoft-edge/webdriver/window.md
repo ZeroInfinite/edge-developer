@@ -31,7 +31,7 @@ Microsoft Edge supports the following window-related WebDriver commands:
 None.
 
 **JSON Response Value**
-```json
+```x86asm
 {
     "sessionId": "{sessionId}",
     "status": 0,
