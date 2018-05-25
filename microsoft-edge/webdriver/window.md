@@ -69,7 +69,7 @@ None.
 None.
 
 **JSON Response Value**
-```
+```none
 {
     "sessionId": "{sessionId}",
     "status": 0,
