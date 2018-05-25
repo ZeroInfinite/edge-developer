@@ -31,7 +31,7 @@ Microsoft Edge supports the following window-related WebDriver commands:
 None.
 
 **JSON Response Value**
-```
+```json
 {
     "sessionId": "{sessionId}",
     "status": 0,
@@ -51,7 +51,7 @@ None.
 None.
 
 **JSON Response Value**
-```
+```json
 {
     "name": "{windowHandle}"
 }
@@ -69,7 +69,7 @@ None.
 None.
 
 **JSON Response Value**
-```none
+```json
 {
     "sessionId": "{sessionId}",
     "status": 0,
@@ -89,7 +89,7 @@ None.
 None.
 
 **JSON Response Value**
-```
+```json
 {
     "sessionId": "{sessionId}",
     "status": 0,
