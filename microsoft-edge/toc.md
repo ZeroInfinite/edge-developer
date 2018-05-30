@@ -22,7 +22,6 @@
 ## [Extensions](extensions.md)
 ### [API support](extensions/API-support.md)
 #### [Extension API roadmap](extensions/API-support/extension-API-roadmap.md)
-#### [Supported APIs](extensions/API-support/supported-APIs.md)
 #### [Supported manifest keys](extensions/API-support/supported-manifest-keys.md)
 ##### [JSON manifest example](extensions/API-support/supported-manifest-keys/json-manifest-example.md)
 ### [Extensions for enterprise](extensions/extensions-for-enterprise.md)
