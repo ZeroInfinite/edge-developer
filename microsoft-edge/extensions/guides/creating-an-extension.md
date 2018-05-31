@@ -269,7 +269,7 @@ Want to write a more complex extension? Take a look at MDN's Beastify extension 
 While walking through MDN's article, [Your second extension](https://developer.mozilla.org/Add-ons/WebExtensions/Your_second_WebExtension), keep in mind the following sections. 
 
 ### APIs 
-See the [Supported APIs](../api-support/supported-apis.md) page for a list of supported extensions APIs in Microsoft Edge.
+See the [API support](../api-support.md) page for a list of supported extensions APIs in Microsoft Edge.
 
 ### Icon sizes
 Preferred extension icon sizes for Microsoft Edge are 20px, 25px, 30px, 40px. Other supported sizes are 19px, 35px, 38px. For more info on icon sizes and best practices, see the [Design](./design.md) guide.
