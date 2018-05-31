@@ -25,7 +25,7 @@
 #### [Supported manifest keys](extensions/API-support/supported-manifest-keys.md)
 ##### [JSON manifest example](extensions/API-support/supported-manifest-keys/json-manifest-example.md)
 ### [Extensions for enterprise](extensions/extensions-for-enterprise.md)
-### [Getting Started](extensions/getting-started.md)
+### [Getting started guides](extensions/getting-started.md)
 #### [Accessibility](extensions/guides/accessibility.md)
 #### [Adding and removing extensions](extensions/guides/adding-and-removing-extensions.md)
 #### [Creating an extension](extensions/guides/creating-an-extension.md)
