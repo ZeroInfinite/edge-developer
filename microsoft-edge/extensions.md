@@ -11,6 +11,9 @@ keywords: edge, web development, html, css, javascript, developer, extensions
 
 #  Microsoft Edge extensions
 
+> [!TIP]
+> Check out the blog post, [New features for extensions in the Windows 10 April 2018 Update](https://blogs.windows.com/msedgedev/2018/05/24/new-extension-features-april-2018-update-notifications-inprivate/), to learn about new extensions features announced in the latest Windows release. 
+
 Extensions are small programs that can be used to add new features to Microsoft Edge or modify the existing functionality. Extensions are intended to improve a user’s day-to-day browsing experience by providing niche functionality that is important to targeted audiences.
 
 Microsoft Edge supports a new HTML, JavaScript and CSS based extension model. This new model is Chrome-compatible which means that existing Chrome extension developers will be able to migrate their extensions to Microsoft Edge with minimal changes.
@@ -26,7 +29,7 @@ To get a an overview of the end to end journey of creating a Microsoft Edge exte
     <td>Check out what APIs are supported/in development for Windows 10 Insider Preview and publicly released builds of Microsoft Edge.</td></p>
 <p>  </tr>
   <tr>
-    <td><a href = "./extensions/api-support/supported-apis.md">Supported APIs</a></td>
+    <td><a href = "./extensions/api-support.md">Supported APIs</a></td>
     <td>Get info on our supported APIs including known issues and Chrome incompatibilities.</td>
 
   </tr>
