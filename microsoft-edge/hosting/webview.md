@@ -634,9 +634,19 @@ webview.removeEventListener("MSWebViewUnviewableContentIdentified", handler);
 
 Adds a native Windows Runtime object as a global parameter to the top-level document inside of a **webview**.
 
+The object is not injected into the current document but rather it is injected during initialization of the next top-level HTML document to which the webview navigates. The object is injected before any script from the HTML document runs so you can rely on the object existing in your document's global script.
+
+You should use addWebAllowedObject either during a MSWebViewNavigationStarting event or before explicitly calling a navigate method. In these cases the object is injected into the document of the corresponding navigation. If you call addWebAllowedObject in some other circumstance you can't be certain which document you'll be injecting the WinRT object.
+
+Calling addWebAllowedObject multiple times will inject multiple objects into the document. If you call addWebAllowedObject both before an explicit navigate method and during the MSWebViewNavigationStarting event for that navigate call, you also end up with multiple objects injected. If called multiple times but with the same name parameter, the last call wins and the previous calls to addWebAllowedObject with that name value are ignored.
+
+If addWebAllowedObject is called for a navigate and that navigate fails or is redirected, the addWebAllowedObject calls are ignored. Specifically for the case of redirects you may want to subscribe to MSWebViewNavigationStarting events to watch for redirects and call addWebAllowedObject again as appropriate.
+
 
 ```js
+let name = "exampleProperty";
 webview.addWebAllowedObject(name, applicationObject);
+webview.navigate("https://example.com/"); // applicationObject will be available as window.exampleProperty to the script of this document
 ```
 #### Parameters
 *name*
